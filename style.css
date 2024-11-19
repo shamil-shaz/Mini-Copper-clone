@@ -1,0 +1,582 @@
+body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(165, 163, 160);
+    box-sizing: border-box;
+}
+
+.main-header{
+    width: 100%;
+    height: 78px;
+    background-color:white;
+    display: flex;
+    margin-top: -7PX; 
+}
+
+.logo{
+    width: 96px;
+    height: 84px; 
+    margin-left: 32px;
+   background: url(./mini-logo.svg) no-repeat center;
+   float: left;
+   cursor: pointer;
+}
+
+.midle-header{
+    width: 1000px;
+    height: 72px;  
+    float: left;     
+    justify-content: space-between;
+    font-family: 'MINISansReg', Arial, sans-serif;
+}
+
+.text-header{
+    margin:32px 57px;
+    align-items: center;
+}
+
+nav a{  
+    margin: 0px 10px;
+    color: black;
+    text-decoration: none;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'MINISansReg', Arial, sans-serif;  font-family: inherit;
+    font-weight:inherit ; 
+}
+
+.midle-header a:hover{
+   color: rgb(14, 147, 236); 
+}
+
+.right-header{
+   width: 80px;
+   height: 72px;
+   background-color: aqua;
+   margin-left: 50px;
+   background: url(./user\ new\ img.jpeg) no-repeat center;
+   background-size: 20px;
+   cursor: pointer;
+   border: 0;  
+}
+
+.content-body-1{
+    width: 100%;
+    height: 500px;
+    background-color: brown;
+    background-image: url(./mini\ cooper\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:1280px;
+    scroll-snap-type: mandatory;
+    list-style: non;   
+}
+
+.text-box-1{
+   width: 904px;
+   height: 150px;
+   margin-left: 43px;
+   margin-top: 60pX;
+   position: relative;
+   float: left;
+}
+
+.h1-text-box-1{
+    color: white;
+    font-size: 4rem;
+    line-height: 1;
+}
+
+.h2-text-box-1{
+    color: white;
+    font-size: 1.8rem;
+    margin-top: -62px;   
+}
+    
+.buttons button{  
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    border-radius: 20px;
+    float: left;
+    margin-left: 9px;
+    font-size: 1.1rem;
+    border-style: none;
+    margin-top: 5px;
+    padding-left: 4px;    
+}
+
+.under-text{
+    color: white;
+    font-size: .75rem;
+    line-height: 1rem;
+    margin-top: 100PX;
+    padding-top: 74px; 
+}
+
+.left-body{
+    width: 100px;
+    height: 500px; 
+    float: left;
+}
+
+.right-body{
+    width: 208px;
+    height: 500px;
+    float: left;  
+}
+
+ .left-body button{
+    width: 55px;
+    height:55px;
+    border-radius: 40px;
+    margin-top: 200px;
+    margin-left: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-style: none;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+}
+
+.right-body button{
+    width: 55px;
+    height:55px;
+    border-radius: 40px;
+    margin-top: 200px;
+    margin-left: 134px;
+    padding-right: 10px;
+    border-style: none; 
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    color: white;
+}
+
+.content-body-2{
+    width: 100%;
+    height: 470px;
+    background-color:white;
+}
+
+.leftside-content-body-2{
+    width: 427px;
+    height: 400px;
+    background-color:white;
+    float: left;
+}
+
+.leftside-photo-body-2{
+    width: 340px;
+    height: 140px;  
+    margin-left: 45px;
+    margin-top: 25px;
+    background-image: url(./mini\ cooper\ 2.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 410px;
+    padding-bottom: 40%;
+
+}
+
+.left-textbox-body-2{
+    width: 200px;
+    height: 60px;
+    padding-top: 4px;
+    padding-bottom: 12px;
+    margin-top: -67px;
+    margin-left: 107px;
+}
+
+.left-text-body-2{
+    text-align: center;
+    font-size: 1rem;
+   line-height: 3.25rem;
+    margin-left: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    width: 100%;  
+    font-family: 'MINISansReg', Arial, sans-serif;
+    font-weight: bold;
+}
+
+
+.rightside-content-body-2{
+    width: 500px;
+    height: 400px; 
+    float: left;
+}
+
+.electric-logo-box{
+        width: 127px;
+        height: 130px;
+        margin-top: 70px;
+        margin-left: 10px;
+}
+
+.electric-logo{
+    background-image: url(./electric\ logo.svg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0 0 100%;
+}
+
+.rightside-photobox-body-2{
+    width: 379px;
+    height: 150px;
+     margin-left: 33px;
+    margin-top: -104px;
+    box-sizing: border-box;   
+}
+
+.rightside-photo-body-2{
+     overflow: hidden;
+     line-height: 0;
+    position: relative;   
+    height: 160px;
+    display: block;
+    overflow: hidden;   
+    margin-left: -32px;
+    padding-bottom: 40%;
+    padding-top: 2px;
+    margin-top: 10px;
+}
+
+
+.right-textbox-body-2{
+    width: 350px;
+    height: 60px;
+    padding-top: 4px;
+    padding-bottom: 12px;
+    margin-top: -150px;
+    margin-left: -21px;
+   
+}
+
+.right-text-body-2{
+    text-align: center;
+    font-size: 1rem;
+   line-height: 3.25rem;
+    margin-left: 11px;
+    margin-bottom: 10px;
+    width: 100%;  
+    font-family: 'MINISansReg', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.content-body-3{
+    width: 100%;
+    height: 900px;
+    background-color: #f1f1f1;
+}
+
+.left-contentbody-3{
+    width: 90px;
+    height: 640px;  
+    float: left;
+}
+
+.midle-contentbody-3{
+    width: 1076px;
+    height: 500px;
+    background-color:#f1f1f1;
+    float: left;
+}
+
+.right-contentbody-3{
+    width: 90px;
+    height: 640px;
+    float: left;
+}
+
+.news-box{
+    width:1076px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+.left-box-new{
+    height: 30px;
+    width: 510px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+.line-leftside{
+    text-align: right;  
+    font-size: 3rem;
+     margin-bottom: 10px;
+     margin-top: -33px;
+     margin-right: 3px; 
+}
+
+.midle-box-news{
+    width: 60px;
+    height: 30px;
+    float: left;
+    margin-top: 10px;
+}
+
+.text-news{
+    text-align: center;
+    position: relative;
+    font-family: 'MINIItalic', 'Georgia', serif;
+    font-size: 1rem;
+    font-weight: normal;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.right-box-news{
+    width: 485px;
+    height: 30px;
+    float: left;
+    margin-top: 10px;
+}
+
+.line-rightside{
+    text-align: left;  
+    font-size: 3rem;
+     margin-bottom: 10px;
+     margin-top: -33px;
+     margin-left: 3px;
+}
+
+.midle-3boxs{
+    width: 1076px;
+    height: 450px; 
+    margin-top: 90px;  
+}
+
+.firstbox{
+    width: 30%;
+    height: 425px;
+    background-color: white;
+    float: left;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.textbox-first{
+    width: 320px;
+    height: 100px;
+    margin-top: 240px; 
+}
+
+
+.text-firstbox{
+    font-size: 1.35rem;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+.underline-fistbox{
+    height: 20px;
+    width: 60px;
+    background-image: url(./underline.jpeg);
+    background-repeat: no-repeat;
+    margin-left: -14px;
+    padding-left: 33px;
+    margin-bottom: 20px;
+    margin-top: 3px;
+}
+
+.secondbox{
+    width: 30%;
+    height: 425px;
+    background-color: white;
+    float: left;
+    margin-left: 50px;
+    cursor: pointer;
+    
+}
+
+.textbox-second{
+    width: 320px;
+    height: 100px; 
+    margin-top: 240px; 
+}
+
+
+.text-secondbox{
+    font-size: 1.35rem;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+.thirdbox{
+    width: 30%;
+    height: 425px;
+    background-color: white;
+    float: left;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.textbox-third{
+    width: 320px;
+    height: 100px;
+    margin-top: 240px;
+    
+}
+
+
+.text-thirdbox{
+    font-size: 1.35rem;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+    
+  
+}
+
+.left-arrow-contentbody-3{
+    width: 55px;
+    height:55px;
+    border-radius: 40px;
+    margin-top: 325px;
+    margin-left: 10px;
+    background-color: white;
+    border-style: none;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.right-arrow-contentbody-3{
+    width: 55px;
+    height: 55px;
+    border-radius: 40px;
+    margin-top: 325px;
+    margin-left: 10px;
+    background-color:white ;
+    border-style: none;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.bottom-contentbody-3{
+    width: 100%;
+    height: 200px;
+    float: left; 
+}
+
+.number-bottom-contentbody-3{
+    width: 100%;
+    height: 80px;  
+    margin-top: 10px;
+    background-image: url(./number.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 8rem;
+}
+
+.showallnews-bottom-contendbody-3{
+    width: 100%;
+    height: 90PX;
+    text-align: center;
+}
+.shownews-bottom{
+    width: 190px;
+    height: 60px;
+    text-align: center;
+    border-radius: 40PX;
+    margin-top: 20PX;
+    text-size-adjust: 3rem;
+    border-style: none;
+    background-color: black;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.mainfooter{
+    width: 100%;
+    height: 650px;
+    background-color: white;
+}
+
+.midlearrow{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    transform: translateX(615px);
+    border-style: none;
+    margin-top: 30px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.blackbox{
+width: 100%;
+height: 100px;
+background-color: black;
+margin-top: 20px;
+}
+
+.linebox-footer{
+    width: 990px;
+    height: 100px;
+    transform: translateX(130px);
+    margin-top: 50px;
+}
+
+.textbox-footer{
+    width: 600px;
+    height: 100px;
+    margin-top: 30px;
+   transform: translateX(330px);
+}
+
+.text-footer{
+    text-align: center;
+    display: flex;
+  text-indent: 50px;
+  cursor: pointer;
+}
+
+.text-footer p:hover{
+    color:rgb(14, 147, 236); 
+}
+
+.bottomlogo-box-footer{
+    width: 100%;
+    height: 180px;  
+}
+
+.logo-and-textbox-footer{
+    width: 110px;
+    height:175px ;  
+   transform: translateX(580px); 
+}
+
+.logo-footer{
+    height: 100px;
+    width: 110px;
+    margin-top: 5px;
+    background-image: url(./mini-logo.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 102px;
+    cursor: pointer;
+    
+}
+.botomtext-footer{
+    text-align: center;
+        font-family: 'MINISansReg', Arial, sans-serif;
+        font-size: .875rem;
+        line-height: 1.125rem;
+}
+
